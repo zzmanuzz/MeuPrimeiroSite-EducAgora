@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {font-family: 'Roboto', sans-serif;}
+
+#ods4 { margin-top: 0%;}
+
+#sobremim{
+    width: 96.3%;
+    float: right;
+}
+
+a{
+    color: white;
+}
+
+#como{
+    padding-bottom: 10%;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color:rgb(73, 140, 214);
+    color: white;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    color: white;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+    color: white;
+}
+li:hover {
+    background-color: rgb(73, 140, 214);
+}
+
+#imagem_fundo {
+    background: url("imagem_fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;   
+}
+
+#subtitulo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    padding-top: 5px;
+    text-shadow: 2px 2px 1px black;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 102px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.detaque {
+    background-color: #f7f7f7;
+
+
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: rgb(73, 140, 214);
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
